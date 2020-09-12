@@ -1,0 +1,21 @@
+<view class="container">
+  <view >
+    <view class="page-section page-section-gap">
+      <map style="width: 340px; height: 540px;"
+       latitude="{{latitude}}" 
+       longitude="{{longitude}}"
+       markers="{{markers}}"
+       controls="{{controls}}"
+       show-compass="{{showpass}}"
+       bindcontroltap="controltap"
+       enable-rotate="{{enableRotate}}"
+       enable-3D="{{enable3d}}"
+       enable-overlooking="{{enableOverlooking}}"
+       enable-scroll="{{enableScroll}}"
+       >
+      </map>
+    </view>
+
+  </view>
+
+</view>

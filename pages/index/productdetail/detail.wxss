@@ -1,0 +1,33 @@
+.swiper-item{
+  display: block;
+  height: 700px;
+}
+.swiper{
+ height: 700px;
+}
+.lr{
+font-size:28rpx; 
+width: 500rpx;
+}
+.flex-wrp{
+  margin-top: 0rpx;
+  display:flex;
+}
+.flex-item{
+  width: 250rpx;
+  height: 50rpx;
+ 
+}
+.demo-text-1{
+ font-size: 30rpx;
+
+}
+.page-head-line{
+   margin-right: 60rpx;
+   margin-left: 60rpx;
+  margin-top: 4rpx;
+  height: 4rpx;
+  background-color: #D8D8D8;
+
+}
+

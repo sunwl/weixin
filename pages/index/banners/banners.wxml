@@ -1,0 +1,13 @@
+<view style="float:left; ">
+ <view style="margin-left:38px ">
+  <block wx:for="{{item}}" wx:key="item">
+    <view class="flex-item demo-text-1 " style="width: 128px; height: 178px;float:left;">
+      <image style="width: 128px; height: 128px; margin-left:15px; " binderror="loadError" src="{{item.url}}" mode="scaleToFill" data-index='{{index}}' bindtap="toImg" ></image>
+      <view class=" font">{{item.price}}</view>
+      <view>
+        <text class=" font1">{{item.chat}}</text>
+      </view>
+    </view>
+  </block>
+   </view>
+</view>

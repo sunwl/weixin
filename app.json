@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/map/map",
+    "pages/index/thisdir/index",
+    "pages/index/productdetail/detail",
+    "pages/index/products/product",
+    "pages/index/orders/order",
+    "pages/index/thisdir/erweima/erweima",
+    "pages/logs/logs",
+    "pages/index/test/test",
+    "pages/index/banners/banners",
+    "pages/index/orders/one"
+  ],
+"permission": {
+  "scope.userLocation": {
+    "desc": "你的位置置接口的效果展示" 
+  }
+},
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WebChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/thisdir/index",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/products/product",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png",
+        "text": "列表"
+      },
+      {
+        "pagePath": "pages/index/orders/order",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png",
+        "text": "阅读"
+      },
+      {
+        "pagePath": "pages/index/map/map",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png",
+        "text": "地图"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+  
+}

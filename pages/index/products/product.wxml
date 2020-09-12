@@ -1,0 +1,27 @@
+<view class="" style="margin-left: 1rpx;margin-right: 0rpx;">
+  <view style="margin-left: 1rpx;margin-right: 0rpx;">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{background}}" wx:key="background">
+        <swiper-item>
+          <image src="{{item.url}}" binderror="dError" class="marg"  data-id="{{item.id}}"  bindtap="todetail1"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="page-head-line"></view>
+  <view class="container">
+    <view class="page-section-spacing" data-name="123" data-id="456" bindtap="todetail">
+      <view class="flex-wrp csMargin" style="flex-direction:row;">
+       <text class="iconfont icon-shouye ">
+　　记不得从什么时候开始有这样的想法了，想回到象牙塔下，把与世无争、自由自在的大学生活重新来过。 
+
+　　数年前，我一无所有的来到大学，有的只是涉世未深的幼稚。从阳春走过盛夏，又从金秋走到了严冬，我一无所有的离去，将走进校园之初的幼稚和大学时的那份年少轻狂都留在了我生活了四年的地方。那里，留下了我的足迹、我的笑语，也留下了我的叹息。曾经，我有过刻骨铭心的喜悦，我的笑声洒满青青的校园；曾经，我也有过锥心刺骨的忧愁，路灯下我孤寂的背影拉的很长很长。校园里，一切都显得那么自然和飘逸，无论喜也罢痛也罢，平凡也罢感动也罢。然而，不经意间，校园里的一幅幅画面都定格成了一张张泛黄的老照片，永远尘封在我的记忆里了。当我再次打开我的记忆，翻开这些照片的时候，一种莫名的思绪涌上我的心头，是喜悦，还是伤感？连我自己都不知道，我只是在想，时间要是停止了该多好！这样，我就可以和舍友们永远享受着进球时的喜悦；我就可以和小赖坐在泰山顶上一直等待着日出；我就可以和我心爱的人一生依偎着走在校园里路灯下的小路上，倾听她的微微私语；我就可以和小妹永远在靠街的、隔着玻璃的餐桌旁，一边看着行人，一边享受着豆花鱼的美味…但是，时间终于还是远去了，无论我多么诚心的祈祷，它不曾，也不会为我停留半刻。如梦如醒的往事，终将随风而去，飘到天边，飘到云际，能感受到它的，只有我的心灵和无尽的思忆。 
+
+　　就让一切往事随风。
+
+
+       </text>
+      </view>
+    </view>
+  </view>
+</view>

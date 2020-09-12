@@ -1,0 +1,5 @@
+.image {
+  margin-top: 100px;
+  width: 750rpx;
+  height: 750rpx;
+}

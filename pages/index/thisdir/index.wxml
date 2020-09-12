@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+<view bindtap="click" >
+<image  src="{{url}}" binderror="loadError" style="width: 400px; height: 540px;" mode="scaleToFill"></image><div style="position:absolute;left:0;top:10px;"></div>
+</view>
+</view>

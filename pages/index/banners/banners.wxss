@@ -1,0 +1,49 @@
+.flex-wrp {
+  margin-top: 25rpx;
+  display: flex;
+}
+
+.flex-item {
+  margin-right: 10px;
+}
+
+.flex-item-V {
+  margin-left: 10px;
+}
+
+.cl1 {
+  background-color: red;
+}
+
+.cl2 {
+  background-color: black;
+}
+
+.cl3 {
+  background-color: green;
+}
+
+.cl00 {
+  background-color: orange;
+}
+
+.font {
+  font-size: 0.5rem;
+   margin-left:15px;
+    width: 128px;
+}
+
+.font1 {
+  font-size: 0.8rem;
+   margin-left:15px;
+}
+
+text {
+    display: -webkit-box;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    white-space: nowrap;  
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+}
